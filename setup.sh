@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Установка git
-pkg install git
+pkg install git -y
 
 # Клонирование репозитория
-git clone https://github.com/Snap888/Mobox-mod-wiget/tree/Mobox-x86-mod-widget
+git clone https://github.com/Snap888/Mobox-mod-wiget.git
 
 # Создание директорий
 mkdir -p "$HOME/tmp"
