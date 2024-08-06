@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Установка git
-apt install -y git
+pkg install git
 
 # Клонирование репозитория
 git clone https://github.com/Snap888/Mobox-mod-wiget/tree/Mobox-x86-mod-widget
