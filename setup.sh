@@ -9,6 +9,7 @@ git clone https://github.com/Snap888/Mobox-mod-wiget
 
 # Создание директорий
 mkdir -p "$HOME/tmp"
+mkdir -p "$HOME/Desktop"
 mkdir -p /data/data/com.termux/files/home/.shortcuts
 chmod 700 -R /data/data/com.termux/files/home/.shortcuts
 mkdir -p /data/data/com.termux/files/home/.shortcuts/tasks
