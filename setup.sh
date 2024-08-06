@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Установка git
@@ -62,9 +63,17 @@ if [ "$MOBOX" = "WoW64" ]; then
     echo "Все операции завершены успешно."
 fi
 
+
+
+
+
+
+
+echo "Установка WEG™ mod"
+
 if [ "$MOBOX" = "X86" ]; then
     # Копирование файлов
-    cp "$HOME/Mobox-mod-wiget/auto-link-kreator" /data/data/com.termux/files/home/bin/auto-link-kreator
+    cp "$HOME/Mobox-mod-wiget/auto-link-kreator" /data/data/com.termux/files/home/bin/
     cp "$HOME/Mobox-mod-wiget/link-source-code-run-x86" /data/data/com.termux/files/home/bin/link-source-code-run
     cp "$HOME/Mobox-mod-wiget/weg-mod-x86" /data/data/com.termux/files/home/glibc/opt/scripts/weg-mod
     cp "$HOME/Mobox-mod-wiget/weg-mod-menu-x86" /data/data/com.termux/files/home/glibc/opt/scripts/weg-mod-menu
