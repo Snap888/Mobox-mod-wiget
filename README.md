@@ -29,7 +29,7 @@ https://github.com/Snap888/Mobox-mod-wiget/blob/main/termux-widget_v0.13.0%2Bgit
 #
 
 ```
-curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
+curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 #
 #
