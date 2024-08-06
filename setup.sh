@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Установка git
+apt install -y git
+
+# Клонирование репозитория
+cd ~
+git clone https://github.com/Snap888/Mobox-mod-wiget
+
 # Создание директорий
 mkdir -p "$HOME/tmp"
 mkdir -p "$HOME/.shortcuts"
