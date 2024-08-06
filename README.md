@@ -4,7 +4,7 @@ for Mobox WoW64
 #
 #
 #
-Установить Mobox из
+# Установить Mobox из :
 https://github.com/olegos2/mobox
 
 
