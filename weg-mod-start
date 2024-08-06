@@ -187,7 +187,7 @@ load_configs
 export PULSE_SERVER=127.0.0.1
 ln -sf $(df -H | grep -o "/storage/....-....") "$WINEPREFIX/dosdevices/f:" &>/dev/null
 DISPLAY=:0 LC_ALL=$(cat $PREFIX/glibc/opt/locale.conf) taskset -c $PRIMARY_CORES $GLIBC_BIN/box64 $GLIBC_BIN/wine explorer /desktop=shell,$RESOLUTION $PREFIX/glibc/opt/apps/tfm.exe >$LOG_PATH 2>&1 &
-DISPLAY=:0 taskset -c $SECONDARY_CORES $GLIBC_BIN/box64 $GLIBC_BIN/wine explorer /desktop=shell,$RESOLUTION start /min /unix $PREFIX/glibc/bin/ib.exe &>/dev/null &
+taskset -c $SECONDARY_CORES $GLIBC_BIN/box64 $GLIBC_BIN/wine explorer /desktop=shell,$RESOLUTION start /min /unix $PREFIX/glibc/bin/ib.exe &>/dev/null &
 DISPLAY=:0 taskset -c $SECONDARY_CORES $GLIBC_BIN/box64 $GLIBC_BIN/wine explorer /desktop=shell,$RESOLUTION $PREFIX/glibc/opt/apps/f5taskmgr.exe &>/dev/null &
 sleep 2
 if [ "$STARTUP_WINEDEVICE_MODE" = "0" ]; then
