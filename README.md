@@ -32,7 +32,7 @@ https://github.com/Snap888/Mobox-mod-wiget/blob/main/termux-widget_v0.13.0%2Bgit
 curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 #
-#
+как установить [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 #
 # Запуск приложений и игр из виджета Termux .
 #
