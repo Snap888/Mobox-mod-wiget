@@ -2,14 +2,18 @@
 
 # Установка git
 apt install -y git
-
+pkg install inotify-tools -y
 # Клонирование репозитория
 cd ~
 git clone https://github.com/Snap888/Mobox-mod-wiget
 
 # Создание директорий
 mkdir -p "$HOME/tmp"
-mkdir -p "$HOME/.shortcuts"
+mkdir -p /data/data/com.termux/files/home/.shortcuts
+chmod 700 -R /data/data/com.termux/files/home/.shortcuts
+mkdir -p /data/data/com.termux/files/home/.shortcuts/tasks
+chmod 700 -R /data/data/com.termux/files/home/.shortcuts/tasks
+
 
 # Копирование файлов
 cp "$HOME/Mobox-mod-wiget/auto-link-kreator" "$PREFIX/bin/"
