@@ -29,7 +29,7 @@ https://github.com/Snap888/Mobox-mod-wiget/blob/main/termux-widget_v0.13.0%2Bgit
 #
 
 ```
-curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh && chmod +x setup.sh && ./setup.sh
+curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup && chmod +x 
 ```
 #
 как установить [![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/ujMJyS50XUw?si=kgbJbcYxGDw9FujJ)
@@ -39,7 +39,7 @@ curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh 
 Скрипт полностью автоматизирован : в виджете создаются копии ярлыков создаваемые на рабочем столе Wine.
 При запуске игры с виджета - автоматически загружается ib(inputbrige) и f5-taskmgr(для вызова диспетчера задачь через клавишу (F5).
 
-# !!!Данная сборка предназначена для Mobox WoW64!!!
+# !!!Данная сборка предназначена для Mobox X86!!!
 
 Для корректной работы автоматического создания дубликатов ссылок в виджете - обязательно после установки (Termux-widget.apk и Mobox-mod-widget) запускать Mobox используя команду
  ```weg-mod```
