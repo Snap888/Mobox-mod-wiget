@@ -1,6 +1,7 @@
 # Mobox-mod-widget #BETA
 for Mobox X86 
-
+версия для Mobox WoW64 
+https://github.com/Snap888/Mobox-mod-wiget/tree/main
 #
 #
 #
