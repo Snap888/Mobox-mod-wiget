@@ -3,8 +3,9 @@
 
 
 
-curl -s -o ~/x https://github.com/Snap888/Mobox-mod-wiget/blob/main/install.sh  && . ~/x
 
+# Скачивание и выполнение скрипта
+curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
 
 
 
