@@ -1,4 +1,5 @@
 #!/bin/bash
+
 rm ~/x
 
 echo "Installing termux-am"
@@ -31,3 +32,4 @@ pkg install xorg-xrandr -y &>/dev/null
 pkg install ncurses-utils -y &>/dev/null
 pkg install hashdeep -y &>/dev/null
 pkg install termux-x11-nightly -y &>/dev/null
+
