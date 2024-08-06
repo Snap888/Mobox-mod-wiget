@@ -1,6 +1,6 @@
-# Mobox-mod-widget 
+# Mobox-mod-widget #BETA
 for Mobox WoW64 
-#BETA
+
 
 
 
