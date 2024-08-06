@@ -25,7 +25,7 @@ https://github.com/Snap888/Mobox-mod-wiget/blob/main/termux-widget_v0.13.0%2Bgit
 
 
 
-# Скачивание и выполнение скрипта
+# Скачать и установить Мод от WEG™
 #
 
 ```
