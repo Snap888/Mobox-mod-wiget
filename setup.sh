@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Установка git
-apt install -y git
+apt install git -y
 
 # Клонирование репозитория
 cd ~
