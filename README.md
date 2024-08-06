@@ -2,7 +2,7 @@
 for Mobox WoW64
 
 Версия для Mobox Box86
-
+https://github.com/Snap888/Mobox-mod-wiget/tree/Mobox-x86-mod-widget
 #
 #
 #
