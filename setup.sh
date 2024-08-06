@@ -4,7 +4,7 @@
 apt install -y git
 
 # Клонирование репозитория
-cd ~
+cd /$HOME
 git clone https://github.com/Snap888/Mobox-mod-wiget/tree/Mobox-x86-mod-widget
 
 # Создание директорий
