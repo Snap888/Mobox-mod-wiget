@@ -39,4 +39,9 @@ curl -O https://raw.githubusercontent.com/Snap888/Mobox-mod-wiget/main/setup.sh 
 Для корректной работы автоматического создания дубликатов ссылок в виджете - обязательно после установки (Termux-widget.apk и Mobox-mod-widget) запускать Mobox используя команду
  ```weg-mod```
 # При запуске командой (mobox) добавление ссылок не работает.
-
+#
+#
+#
+#
+# Наша группа в ТГ
+https://t.me/MoboxWinlatorExagear
