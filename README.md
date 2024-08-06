@@ -1,5 +1,5 @@
 # Mobox-mod-widget #BETA
-for Mobox WoW64 
+for Mobox X86 
 
 #
 #
