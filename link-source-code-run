@@ -200,6 +200,7 @@ if [ "$STARTUP_WINEDEVICE_MODE" = "0" ]; then
 	$GLIBC_BIN/box64 $GLIBC_BIN/wine taskkill /f /im services.exe &>/dev/null &
 fi
 am start --user 0 -n com.termux.x11/.MainActivity &>/dev/null
+auto-link-kreator &>/dev/null
 
 echo "Enter 1 to stop"
 REBOOT=0
