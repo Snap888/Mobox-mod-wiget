@@ -2,7 +2,7 @@
 
 # Установка git
 apt install -y git
-
+pkg install inotify-tools -y
 # Клонирование репозитория
 cd ~
 git clone https://github.com/Snap888/Mobox-mod-wiget
